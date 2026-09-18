@@ -1,0 +1,41 @@
+{
+  "WINDOW_SIZE": 48,
+  "RESNET_FILTERS": [
+    32,
+    64,
+    64
+  ],
+  "LSTM_UNITS": 64,
+  "MIN_METERS_FOR_GNN": 30,
+  "GNN_HIDDEN_DIM": 32,
+  "GLOBAL_CUTOFF_TIME": "2017-11-29 03:00:00",
+  "RAW_FEATURE_COLS": [
+    "R Phase Current",
+    "Y Phase Current",
+    "B Phase Current",
+    "R Phase Voltage",
+    "Y Phase Voltage",
+    "B Phase Voltage",
+    "Active Energy",
+    "Apparent Energy",
+    "Reactive Lag",
+    "Reactive Lead",
+    "PF"
+  ],
+  "TARGET_COLS": [
+    "Current Imbalance",
+    "Voltage Unbalance",
+    "Missing Potential",
+    "High Voltage",
+    "Low Voltage",
+    "Over Current",
+    "Very Low PF",
+    "Neutral Disturbance",
+    "CT Reversal",
+    "CT Bypass",
+    "CT Open",
+    "Missing Value"
+  ],
+  "TIME_COL": "Load Survey Time",
+  "ID_COL": "MID"
+}
